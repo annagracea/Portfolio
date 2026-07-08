@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio website built with HTML, CSS, and JavaScript." />
+    <title>Anna Grace Ajith</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a href="#home" class="logo">Your Name</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-content container" id="home">
+        <div>
+          <p class="eyebrow">Frontend Developer • UI Engineer</p>
+          <h1>Building thoughtful digital experiences that feel effortless.</h1>
+          <p class="lead">
+            I’m a developer focused on turning ideas into polished, responsive web products that blend strong design with reliable performance.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Quick Snapshot</h3>
+          <ul>
+            <li>3+ years building web applications</li>
+            <li>Specialist in HTML, CSS, JavaScript</li>
+            <li>Passionate about accessible UI and clean code</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>Design-minded developer with a problem-solving focus.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I enjoy creating products that are intuitive, visually clear, and easy to use. My background blends development, user-centered design, and attention to detail, which helps me ship experiences that feel polished from the first click.
+          </p>
+          <p>
+            Whether I’m improving performance, refining interactions, or translating a concept into a working website, I aim to make every experience both functional and memorable.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Professional highlights</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <h3>Frontend Developer</h3>
+              <p class="meta">2022 — Present</p>
+              <p>Built responsive interfaces, improved user journeys, and collaborated with teams to launch features that increased engagement and usability.</p>
+            </article>
+            <article class="timeline-item">
+              <h3>Web Developer Intern</h3>
+              <p class="meta">2021 — 2022</p>
+              <p>Developed landing pages, refined visual systems, and contributed to maintenance tasks across multiple client projects.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and strengths</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript, Responsive Design</p>
+          </div>
+          <div class="skill-card">
+            <h3>Frameworks</h3>
+            <p>React, Bootstrap, Tailwind CSS</p>
+          </div>
+          <div class="skill-card">
+            <h3>Workflow</h3>
+            <p>Version control, team collaboration, debugging, performance tuning</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>Portfolio Website</h3>
+              <p>Designed and developed a personal portfolio with strong visual hierarchy and smooth interactions.</p>
+            </article>
+            <article class="project-card">
+              <h3>Dashboard UI</h3>
+              <p>Created a data-focused dashboard experience with clear charts, responsive layout, and accessible navigation.</p>
+            </article>
+            <article class="project-card">
+              <h3>Marketing Landing Page</h3>
+              <p>Delivered a conversion-focused landing page with polished visuals, fast load times, and mobile-first responsiveness.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container footer-content">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something meaningful.</h2>
+        </div>
+        <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
